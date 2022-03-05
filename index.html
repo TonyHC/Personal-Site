@@ -2,70 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tony's Personal Site</title>
+    <title>Tony Chao</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Marck+Script&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img src="images/potrait.jpg" alt="Profile Picture" height="180" />
-        </td>
-        <td>
-          <h1>Tony Chao</h1>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="top-cloud-img" />
+      <div class="intro">
+        <h1>I'm Tony.</h1>
+        <h2>a software developer.</h2>
+      </div>
+      <img class="bottom-cloud" src="images/cloud.png" alt="bottom-cloud-img" />
+      <img
+        class="web-design-img"
+        src="images/web-design.png"
+        alt="web-design-img"
+      />
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="profile-img"
+          src="images/potrait.jpg"
+          alt="profile-img"
+          height="180"
+        />
+        <h2>Hello.</h2>
+        <p>
+          I am a freelance Android Developer transitioning into a Java Full
+          Stack Developer.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="design-develop"
+            src="images/web-design.png"
+            alt="design"
+          />
+          <h3>Design & Development</h3>
           <p>
-            <em>Freelance <strong>Android Developer</strong></em>
+            I started programming in the middle of my junior year of high
+            school. Over time, I have gained experience in designing and
+            developing Android applications. In the last few months, I have been
+            developing and honing my skills as a Java Full Stack Developer
+            during my time-off.
           </p>
+        </div>
+        <div class="skill-row">
+          <img class="rest-api" src="images/browser.png" alt="apis" />
+          <h3>Rest APIs</h3>
           <p>
-            I am a Android Developer transitioning into a Java Full Stack
-            Developer.
+            During my time-off, understanding REST APIs has been one of my
+            primarly focuses. I tested my understanding of REST APIs through
+            projects development either using existing 3rd party APIS, design an
+            API or develop and utilize an API within a full stack application.
           </p>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li><a href="https://www.usf.edu/">University of South Florida</a></li>
-      <li><a href="https://www.spcollege.edu/">St. Petersburg College</a></li>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2021 - Present</td>
-          <td>Android Developer</td>
-        </tr>
-        <tr>
-          <td>2020</td>
-          <td>Mobile App Developer</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Java</td>
-        <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>&#11088;&#11088;&#11088;&#11088;</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>&#11088;&#11088;&#11088;&#11088;</td>
-      </tr>
-    </table>
-    <hr />
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-info.html">Contact Info</a>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3 class="contact-msg">Send me a message and let's have a chat.</h3>
+        <a class="btn" href="mailto:tony.h.chao@outlook.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="http://www.linkedin.com/in/tonyhchao"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://github.com/TonyHC">Github</a>
+      <p>© Tony Chao</p>
+    </div>
   </body>
 </html>
